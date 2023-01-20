@@ -11,7 +11,7 @@ def get_collection_mongodb(url_conexao, colecao):
 
 if __name__ == '__main__':
 
-    url_conexao = 'mongodb+srv://lucashosilva:OsmuSe232j1n38eA@sandbox.nc0gzpu.mongodb.net/gama?retryWrites=true&w=majority'
+    url_conexao = 'mongodb+srv://lucashosilva:OsmuSe232j1n38eA@sandbox.nc0gzpu.mongodb.net/gama'
     colecao = 'produto'
 
     x = get_collection_mongodb(url_conexao, colecao)
