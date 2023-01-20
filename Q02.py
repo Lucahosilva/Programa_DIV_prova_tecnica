@@ -20,7 +20,7 @@ def is_51_or_80(number):
 
 if __name__ == '__main__':
 
-    number = input('Digite o numero desejado')
+    number = float(input('Digite o numero desejado'))
 
     is_less_than_ten(number)
     is_even(number)
